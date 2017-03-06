@@ -14,6 +14,7 @@
 		964BC5661E6C9D4200988DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964BC5641E6C9D4200988DDF /* LaunchScreen.storyboard */; };
 		964BC5711E6C9D4400988DDF /* TableCellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964BC5701E6C9D4400988DDF /* TableCellsTests.swift */; };
 		964BC57C1E6C9D4400988DDF /* TableCellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964BC57B1E6C9D4400988DDF /* TableCellsUITests.swift */; };
+		964BC58A1E6C9EA500988DDF /* NameAndColorCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964BC5891E6C9EA400988DDF /* NameAndColorCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		964BC5771E6C9D4400988DDF /* TableCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964BC57B1E6C9D4400988DDF /* TableCellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellsUITests.swift; sourceTree = "<group>"; };
 		964BC57D1E6C9D4400988DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964BC5891E6C9EA400988DDF /* NameAndColorCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameAndColorCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				964BC55B1E6C9D4200988DDF /* AppDelegate.swift */,
 				964BC55D1E6C9D4200988DDF /* ViewController.swift */,
+				964BC5891E6C9EA400988DDF /* NameAndColorCellTableViewCell.swift */,
 				964BC55F1E6C9D4200988DDF /* Main.storyboard */,
 				964BC5621E6C9D4200988DDF /* Assets.xcassets */,
 				964BC5641E6C9D4200988DDF /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				964BC55E1E6C9D4200988DDF /* ViewController.swift in Sources */,
 				964BC55C1E6C9D4200988DDF /* AppDelegate.swift in Sources */,
+				964BC58A1E6C9EA500988DDF /* NameAndColorCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
